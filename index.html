@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cart-icon">
+  🛒 <span class="cart-count">0</span> <!-- Этот элемент будет показывать количество товаров -->
+</div>
+
+    <div class="cart-container">
+        <h3>Корзина</h3>
+        <div class="cart-items"></div>
+        <div class="cart-footer">
+            <span class="total-label">Итого:</span>
+            <span class="total-price">$0</span>
+            <button class="clear-cart-btn">Очистить корзину</button>
+        </div>
+    </div>
+    <input type="text" class="search" placeholder="Поиск товаров...">
+    <div class="timer">
+        Оставшееся время до окончания акции: <span id="countdown"></span>
+    </div>
+    <div class="grid"></div>
+    <script src="index.js"></script>
+</body>
+</html>
